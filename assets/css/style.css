@@ -1,11 +1,11 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #000;
   font-family: "d-din";
   color: #fff;
   font-size: 33px;
   letter-spacing: 0.01em;
+  background-color: #000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   word-wrap: break-word;
@@ -28,13 +28,14 @@ h1, h2, h3, h4 {
   top: 0;
   left: 0;
   width: 100%;
-  opacity: 0.7;
-  min-width: 2250px
+  min-width: 2250px;
+  background-color: #000;
 }
 #background img {
   display: block;
   position: relative;
   width: 100%;
+  opacity: 0.75;
 }
 #wrap {
   position: absolute;
